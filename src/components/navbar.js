@@ -11,9 +11,9 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
   return (
     <React.Fragment>
-      <div className="w-screen h-[80px] z-10 text-white fixed drop-shadow-lg">
-        <div className="px-2 flex justify-between items-center ">
-          <div className="flex  justify-between items-center w-full h-full">
+      <div className="w-screen h-[80px] z-10 text-white drop-shadow-lg">
+        <div className="flex justify-between items-center ">
+          <div className="flex  justify-between items-center w-full">
             <h1 className="ml-5 text-3xl font-bold mr-4 sm:text-4xl">Kukuh Motor.</h1>
             <ul className="hidden md:flex">
               <li>
